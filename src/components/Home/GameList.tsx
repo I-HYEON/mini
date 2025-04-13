@@ -2,28 +2,29 @@ import { motion } from "framer-motion";
 import GameCard from "./GameCard";
 import runawayThumbnail from "@/assets/runaway/runaway-thumbnail.png";
 import gohighThumbnail from "@/assets/gohigh/gohigh-thumbnail.png";
+import flyToTheSkyThumbnail from "@/assets/flytothesky/flytothesky-thumbnail.png"
 
 const games = [
   {
-    title: "Endless Jump",
+    title: "ENDLESS JUMP",
     description: "Run and Jump through a beautiful cityscape, avoiding obstacles..",
     image: runawayThumbnail,
     href: "/games/run-away",
     isOpen: true,
   },
   {
-    title: "Go High",
+    title: "GO UP SPACE",
     description: "Soar through space and dodge asteroids in this fast-paced mini game. How high can you fly without crashing?",
     image: gohighThumbnail,
     href: "/games/go-high",
     isOpen: true,
   },
   {
-    title: "SYNTH SHOOTER",
-    description: "Fast-paced shooter with synthwave aesthetics. Survive waves of enemies.",
-    image: "/placeholder.jpg?height=400&width=600",
-    href: "/games/synth-shooter",
-    isOpen: false,
+    title: "GOOD PILOT",
+    description: "Fly your plane through endless skies, avoiding obstacles along the way. Test your reflexes and aim for the highest score!",
+    image: flyToTheSkyThumbnail,
+    href: "/games/fly-to-the-sky",
+    isOpen: true,
   },
   {
     title: "MEMORY MATRIX",
