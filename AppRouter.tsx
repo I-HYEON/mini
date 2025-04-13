@@ -4,6 +4,7 @@ import { RunAwayGamePage } from "@/pages/RunAwayGamePage";
 import { GameLayout } from "@/layouts/GameLayout";
 import HomePage from "@/pages/HomePage";
 import { HomeLayout } from "@/layouts/HomeLayout";
+import GoHigh from "@/components/GoHighGame/GoHigh";
 
 const AppRouter: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const AppRouter: React.FC = () => {
 
         <Route element={<GameLayout />}>
           <Route path="/games/run-away" element={<RunAwayGamePage />} />
+          <Route path="/games/go-high" element={<GoHigh/>}/>
         </Route>
       </Routes>
     </Router>

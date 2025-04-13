@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import GameCard from "./GameCard";
 import runawayThumbnail from "@/assets/runaway/runaway-thumbnail.png";
+import gohighThumbnail from "@/assets/gohigh/gohigh-thumbnail.png";
 
 const games = [
   {
@@ -11,11 +12,11 @@ const games = [
     isOpen: true,
   },
   {
-    title: "CRYPTO PUZZLE",
-    description: "Solve complex puzzles to hack into the mainframe and steal valuable data.",
-    image: "/placeholder.jpg?height=400&width=600",
-    href: "/games/crypto-puzzle",
-    isOpen: false,
+    title: "Go High",
+    description: "Soar through space and dodge asteroids in this fast-paced mini game. How high can you fly without crashing?",
+    image: gohighThumbnail,
+    href: "/games/go-high",
+    isOpen: true,
   },
   {
     title: "SYNTH SHOOTER",
